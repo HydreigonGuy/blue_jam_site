@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %} Summon {% endblock %}
+
+{% block head %}{% endblock %}
+
+{% block body %}
+    <p style="color: white; margin: 150px; margin-bottom: 20px;">
+        Your current Blue Coins: {{user.blue_coins}}
+    </p>
+    <button class="summon-button">Summon Blue Creature for 100 Blue Coins</button>
+{% endblock %}

@@ -1,6 +1,6 @@
 
 from flask import redirect, render_template, request
-from flask_login import current_user, login_user, logout_user
+from flask_login import current_user, login_user, logout_user, login_required
 from app import app
 from db import BlueStuff, User, db
 
@@ -39,7 +39,14 @@ def logout():
 
 @app.route('/game/')
 def game():
+    if not current_user.is_authenticated:
+        return redirect("/login")
     return render_template("game/home.html")
+
+@app.route('/game/summon')
+@login_required
+def game_summon():
+    return render_template("game/summon.html", user=current_user)
 
 @app.route('/game/blue_guys')
 def game_blue_guys():
