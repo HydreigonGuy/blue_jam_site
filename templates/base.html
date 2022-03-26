@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Blue - home</title>
+        <title>Blue - {% block title %}{% endblock %}</title>
         <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css', _external=True) }}">
         {% block head %}{% endblock %}
     </head>

@@ -12,6 +12,6 @@ def game():
     return render_template("game/home.html")
 
 @app.route('/game/blue_guys')
-def game():
+def game_blue_guys():
     #blue_guys = BlueStuff.query.filter_by(userid= current user id )
     return render_template("game/home.html")
