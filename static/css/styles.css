@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: blue;
+    padding-top: 20px;
 }
 
 .header{
@@ -27,4 +28,35 @@ body{
 
 .content{
     padding: 100px;
+}
+
+.form-input-large{
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+    margin-bottom: 0;
+    margin-top: 40px;
+}
+
+.form-button{
+    padding: 20px;
+    border-radius: 6px;
+    margin: auto;
+    background-color: navy;
+    color: white;
+    border: none;
+    display: block;
+    margin-top: 20px;
+}
+
+.header-auth-button{
+    padding: 15px;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    background-color: navy;
+    float: right;
+    margin-right: 30px;
 }
