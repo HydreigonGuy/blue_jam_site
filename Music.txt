@@ -1,0 +1,40 @@
+https://zupimages.net/up/22/12/h86w.png
+
+I am Blue !!! - EIFFEL 65
+Song Sung Blue - Neil Diamond
+Bing Blue Eyes - Sad Violin Music Collective
+La Blue Army est avec nous - Fafa
+Blue Hotel - Chris Isaak
+Mamy Blue - Nicoletta
+Blue Eyes Crying In the rain - Willie Nelson
+baby's got her blue jeans on - Mel McDaniel
+Mr red, while, and blue - Coffey Anderson
+Tangled up in blue - Bob Dylan
+Blue ain't your color - Keith Urban
+Blue morning, blue day - Foreigner
+Blue Suede Shoes - Elvis Presley
+Suite : judy blue eyes - Crosby, Stills, Nash and Young
+Blue Jeans - Lana Del Rey
+Caribbean Blue - Enya
+Blue on black - Five finger death punch
+BLUE - Tiesto
+Mr blue sky - Electric Light Orchestra
+When the stars go blue - Tim McGraw
+Blue Jean - David Bowie
+Jackie Blue - Ozark Mountain Daredevils
+Blue (KNY Factory Remix) - Eiffel 65
+Blue - Sound Of Legend
+Blue Sky - Ikson
+Blue - MARINA AND THE DIAMONDS
+Blue - Beyoncé ft.Blue Ivy
+BLUE M/V - BIGBANG
+Blue - David Guetta & Bebe Rexha (AHH Remix)
+
+.video-1 iframe{
+    left:180px;
+    top:0px;
+    width: 15%;
+    height: 100%;
+    overflow:hidden;
+    position:relative;
+    }

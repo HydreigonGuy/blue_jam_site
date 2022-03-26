@@ -1,0 +1,83 @@
+.music-button{
+    margin: 20px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: lightblue;
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.text-1 {
+    top: 25px;
+    position: relative;
+}
+
+.btn-1 {
+    height: 40px;
+    width: 46px;
+    left: 230px;
+    top: -25px;
+    position: relative;
+}
+
+.btn-2 {
+    left: 260px;
+    top: -50px;
+    position: relative;
+}
+
+.text-3 {
+    top: -25px;
+    position: relative;
+}
+
+.btn-3 {
+    left: 345px;
+    top: -70px;
+    position: relative;
+}
+
+.text-4 {
+    top: -40px;
+    position: relative;
+}
+
+.btn-4 {
+    left: 280px;
+    top: -90px;
+    position: relative;
+}
+
+.text-5 {
+    top: -60px;
+    position: relative;
+}
+
+.btn-5 {
+    left: 210px;
+    top: -110px;
+    position: relative;
+}
+
+.text-6 {
+    top: -80px;
+    position: relative;
+}
+
+.btn-6 {
+    left: 200px;
+    top: -130px;
+    position: relative;
+}
+
+.text-7 {
+    top: -100px;
+    position: relative;
+}
+
+.btn-7 {
+    left: 360px;
+    top: -153px;
+    position: relative;
+}
