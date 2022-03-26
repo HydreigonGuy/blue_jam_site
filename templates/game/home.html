@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/game.css', _external=True) }}">
+{% endblock %}
+
+{% block body %}
+    <div class="content">
+        <a class="game-button" href="/game/blue_guys">My Blue Guys</a>
+        <a class="game-button" href="/game/summon">Summon</a>
+        <a class="game-button" href="/game/fight">Fight</a>
+    </div>
+{% endblock %}
