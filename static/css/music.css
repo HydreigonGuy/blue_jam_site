@@ -1,0 +1,841 @@
+.music-button{
+    margin: 20px;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: lightblue;
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    position: relative;
+    font-family: 'Marck Script', cursive;
+    color: rgb(27, 140, 233);
+}
+
+.fas {
+    opacity: 0;
+    transform: translateX(-30px);
+    transition: 0.4s ease;
+}
+
+.text-1 {
+    top: 25px;
+    position: relative;
+}
+
+.btn-1 {
+    position: relative;
+    bottom: 35%;
+    left: 340px;
+    transform: translateX(-50%);
+    padding: 1.5rem 2.5rem;
+    text-transform: uppercase;
+    background: rgba(105,237,255,0.64);
+    border-radius: 0 0 20px 20px;
+    font-size: 2rem;
+    box-shadow: 0 0 6px #eee;
+    cursor: pointer;
+    display: flex;
+    transition: 0.7s ease;
+    top: -65px;
+    height: 20px;
+    width: 40px;
+}
+
+.btn-1:hover .fas {
+    opacity: 1;
+    transform: translateX(10px);
+}
+
+.btn-1:hover {
+  filter: brightness(140%);
+}
+
+.btn-1:active {
+  transform: scale(0.96) translateX(-50%);
+}
+
+.btn2 {
+    left: 270px;
+    top: -50px;
+    position: relative;
+}
+
+.btn-2 {
+    position: relative;
+    bottom: 35%;
+    left: 380px;
+    transform: translateX(-50%);
+    padding: 1.5rem 2.5rem;
+    text-transform: uppercase;
+    background: rgba(105,237,255,0.64);
+    border-radius: 0 0 20px 20px;
+    font-size: 2rem;
+    box-shadow: 0 0 6px #eee;
+    cursor: pointer;
+    display: flex;
+    transition: 0.7s ease;
+    top: -65px;
+    height: 20px;
+    width: 40px;
+}
+
+.btn-2:hover .fas {
+    opacity: 1;
+    transform: translateX(10px);
+}
+
+.btn-2:hover .text {
+  transform: translateX(-10px);
+}
+
+.btn-2:hover {
+  filter: brightness(140%);
+}
+
+.btn-2:active {
+  transform: scale(0.96) translateX(-50%);
+}
+
+.text-3 {
+    top: -25px;
+    position: relative;
+}
+
+.btn3 {
+    left: 345px;
+    top: -50px;
+    position: relative;
+}
+
+.btn-3 {
+    position: relative;
+    bottom: 35%;
+    left: 470px;
+    transform: translateX(-50%);
+    padding: 1.5rem 2.5rem;
+    text-transform: uppercase;
+    background: rgba(105,237,255,0.64);
+    border-radius: 0 0 20px 20px;
+    font-size: 2rem;
+    box-shadow: 0 0 6px #eee;
+    cursor: pointer;
+    display: flex;
+    transition: 0.7s ease;
+    top: -65px;
+    height: 20px;
+    width: 40px;
+}
+
+.btn-3:hover .fas {
+    opacity: 1;
+    transform: translateX(10px);
+}
+
+.btn-3:hover .text {
+  transform: translateX(-10px);
+}
+
+.btn-3:hover {
+  filter: brightness(140%);
+}
+
+.btn-3:active {
+  transform: scale(0.96) translateX(-50%);
+}
+
+.text-4 {
+    top: -40px;
+    position: relative;
+}
+
+.btn4 {
+    left: 280px;
+    top: -50px;
+    position: relative;
+}
+
+.btn-4 {
+    position: relative;
+    bottom: 35%;
+    left: 390px;
+    transform: translateX(-50%);
+    padding: 1.5rem 2.5rem;
+    text-transform: uppercase;
+    background: rgba(105,237,255,0.64);
+    border-radius: 0 0 20px 20px;
+    font-size: 2rem;
+    box-shadow: 0 0 6px #eee;
+    cursor: pointer;
+    display: flex;
+    transition: 0.7s ease;
+    top: -65px;
+    height: 20px;
+    width: 40px;
+}
+
+.btn-4:hover .fas {
+    opacity: 1;
+    transform: translateX(10px);
+}
+
+.btn-4:hover .text {
+  transform: translateX(-10px);
+}
+
+.btn-4:hover {
+  filter: brightness(140%);
+}
+
+.btn-4:active {
+  transform: scale(0.96) translateX(-50%);
+}
+
+.text-5 {
+    top: -60px;
+    position: relative;
+}
+
+.btn5 {
+    left: 210px;
+    top: -50px;
+    position: relative;
+}
+
+.btn-5 {
+    position: relative;
+    bottom: 35%;
+    left: 320px;
+    transform: translateX(-50%);
+    padding: 1.5rem 2.5rem;
+    text-transform: uppercase;
+    background: rgba(105,237,255,0.64);
+    border-radius: 0 0 20px 20px;
+    font-size: 2rem;
+    box-shadow: 0 0 6px #eee;
+    cursor: pointer;
+    display: flex;
+    transition: 0.7s ease;
+    top: -65px;
+    height: 20px;
+    width: 40px;
+}
+
+.btn-5:hover .fas {
+    opacity: 1;
+    transform: translateX(10px);
+}
+
+.btn-5:hover .text {
+  transform: translateX(-10px);
+}
+
+.btn-5:hover {
+  filter: brightness(140%);
+}
+
+.btn-5:active {
+  transform: scale(0.96) translateX(-50%);
+}
+
+.text-6 {
+    top: -80px;
+    position: relative;
+}
+
+.btn6 {
+    left: 200px;
+    top: -50px;
+    position: relative;
+}
+
+.btn-6 {
+    position: relative;
+    bottom: 35%;
+    left: 300px;
+    transform: translateX(-50%);
+    padding: 1.5rem 2.5rem;
+    text-transform: uppercase;
+    background: rgba(105,237,255,0.64);
+    border-radius: 0 0 20px 20px;
+    font-size: 2rem;
+    box-shadow: 0 0 6px #eee;
+    cursor: pointer;
+    display: flex;
+    transition: 0.7s ease;
+    top: -65px;
+    height: 20px;
+    width: 40px;
+}
+
+.btn-6:hover .fas {
+    opacity: 1;
+    transform: translateX(10px);
+}
+
+.btn-6:hover .text {
+  transform: translateX(-10px);
+}
+
+.btn-6:hover {
+  filter: brightness(140%);
+}
+
+.btn-6:active {
+  transform: scale(0.96) translateX(-50%);
+}
+
+.text-7 {
+    top: -100px;
+    position: relative;
+}
+
+.btn7 {
+    left: 360px;
+    top: -50px;
+    position: relative;
+}
+
+.btn-7 {
+    position: relative;
+    bottom: 35%;
+    left: 500px;
+    transform: translateX(-50%);
+    padding: 1.5rem 2.5rem;
+    text-transform: uppercase;
+    background: rgba(105,237,255,0.64);
+    border-radius: 0 0 20px 20px;
+    font-size: 2rem;
+    box-shadow: 0 0 6px #eee;
+    cursor: pointer;
+    display: flex;
+    transition: 0.7s ease;
+    top: -65px;
+    height: 20px;
+    width: 40px;
+}
+
+.btn-7:hover .fas {
+    opacity: 1;
+    transform: translateX(10px);
+}
+
+.btn-7:hover .text {
+  transform: translateX(-10px);
+}
+
+.btn-7:hover {
+  filter: brightness(140%);
+}
+
+.btn-7:active {
+  transform: scale(0.96) translateX(-50%);
+}
+
+.text-8 {
+    top: -120px;
+    position: relative;
+}
+
+.btn8 {
+    left: 110px;
+    top: -50px;
+    position: relative;
+}
+
+.btn-8 {
+    position: relative;
+    bottom: 35%;
+    left: 210px;
+    transform: translateX(-50%);
+    padding: 1.5rem 2.5rem;
+    text-transform: uppercase;
+    background: rgba(105,237,255,0.64);
+    border-radius: 0 0 20px 20px;
+    font-size: 2rem;
+    box-shadow: 0 0 6px #eee;
+    cursor: pointer;
+    display: flex;
+    transition: 0.7s ease;
+    top: -65px;
+    height: 20px;
+    width: 40px;
+}
+
+.btn-8:hover .fas {
+    opacity: 1;
+    transform: translateX(10px);
+}
+
+.btn-8:hover .text {
+  transform: translateX(-10px);
+}
+
+.btn-8:hover {
+  filter: brightness(140%);
+}
+
+.btn-8:active {
+  transform: scale(0.96) translateX(-50%);
+}
+
+.text-9 {
+    top: -140px;
+    position: relative;
+}
+
+.btn9 {
+    left: 170px;
+    top: -50px;
+    position: relative;
+}
+
+.btn-9 {
+    position: relative;
+    bottom: 35%;
+    left: 270px;
+    transform: translateX(-50%);
+    padding: 1.5rem 2.5rem;
+    text-transform: uppercase;
+    background: rgba(105,237,255,0.64);
+    border-radius: 0 0 20px 20px;
+    font-size: 2rem;
+    box-shadow: 0 0 6px #eee;
+    cursor: pointer;
+    display: flex;
+    transition: 0.7s ease;
+    top: -65px;
+    height: 20px;
+    width: 40px;
+}
+
+.btn-9:hover .fas {
+    opacity: 1;
+    transform: translateX(10px);
+}
+
+.btn-9:hover .text {
+  transform: translateX(-10px);
+}
+
+.btn-9:hover {
+  filter: brightness(140%);
+}
+
+.btn-9:active {
+  transform: scale(0.96) translateX(-50%);
+}
+
+.text-10 {
+    top: -160px;
+    position: relative;
+}
+
+.btn10 {
+    left: 120px;
+    top: -50px;
+    position: relative;
+}
+
+.btn-10 {
+    position: relative;
+    bottom: 35%;
+    left: 200px;
+    transform: translateX(-50%);
+    padding: 1.5rem 2.5rem;
+    text-transform: uppercase;
+    background: rgba(105,237,255,0.64);
+    border-radius: 0 0 20px 20px;
+    font-size: 2rem;
+    box-shadow: 0 0 6px #eee;
+    cursor: pointer;
+    display: flex;
+    transition: 0.7s ease;
+    top: -65px;
+    height: 20px;
+    width: 40px;
+}
+
+.btn-10:hover .fas {
+    opacity: 1;
+    transform: translateX(10px);
+}
+
+.btn-10:hover .text {
+  transform: translateX(-10px);
+}
+
+.btn-10:hover {
+  filter: brightness(140%);
+}
+
+.btn-10:active {
+  transform: scale(0.96) translateX(-50%);
+}
+
+.text-11 {
+    top: -180px;
+    position: relative;
+}
+
+.btn11 {
+    left: 183px;
+    top: -50px;
+    position: relative;
+}
+
+.btn-11 {
+    position: relative;
+    bottom: 35%;
+    left: 340px;
+    transform: translateX(-50%);
+    padding: 1.5rem 2.5rem;
+    text-transform: uppercase;
+    background: rgba(105,237,255,0.64);
+    border-radius: 0 0 20px 20px;
+    font-size: 2rem;
+    box-shadow: 0 0 6px #eee;
+    cursor: pointer;
+    display: flex;
+    transition: 0.7s ease;
+    top: -65px;
+    height: 20px;
+    width: 40px;
+}
+
+.btn-11:hover .fas {
+    opacity: 1;
+    transform: translateX(10px);
+}
+
+.btn-11:hover .text {
+  transform: translateX(-10px);
+}
+
+.btn-11:hover {
+  filter: brightness(140%);
+}
+
+.btn-11:active {
+  transform: scale(0.96) translateX(-50%);
+}
+
+.text-12 {
+    top: -200px;
+    position: relative;
+}
+
+.btn12 {
+    left: 230px;
+    top: -50px;
+    position: relative;
+}
+
+.btn-12 {
+    position: relative;
+    bottom: 35%;
+    left: 350px;
+    transform: translateX(-50%);
+    padding: 1.5rem 2.5rem;
+    text-transform: uppercase;
+    background: rgba(105,237,255,0.64);
+    border-radius: 0 0 20px 20px;
+    font-size: 2rem;
+    box-shadow: 0 0 6px #eee;
+    cursor: pointer;
+    display: flex;
+    transition: 0.7s ease;
+    top: -65px;
+    height: 20px;
+    width: 40px;
+}
+
+.btn-12:hover .fas {
+    opacity: 1;
+    transform: translateX(10px);
+}
+
+.btn-12:hover .text {
+  transform: translateX(-10px);
+}
+
+.btn-12:hover {
+  filter: brightness(140%);
+}
+
+.btn-12:active {
+  transform: scale(0.96) translateX(-50%);
+}
+
+.text-13 {
+    top: -220px;
+    position: relative;
+}
+
+.btn13 {
+    left: 260px;
+    top: -50px;
+    position: relative;
+}
+
+.btn-13 {
+    position: relative;
+    bottom: 35%;
+    left: 390px;
+    transform: translateX(-50%);
+    padding: 1.5rem 2.5rem;
+    text-transform: uppercase;
+    background: rgba(105,237,255,0.64);
+    border-radius: 0 0 20px 20px;
+    font-size: 2rem;
+    box-shadow: 0 0 6px #eee;
+    cursor: pointer;
+    display: flex;
+    transition: 0.7s ease;
+    top: -65px;
+    height: 20px;
+    width: 40px;
+}
+
+.btn-13:hover .fas {
+    opacity: 1;
+    transform: translateX(10px);
+}
+
+.btn-13:hover .text {
+  transform: translateX(-10px);
+}
+
+.btn-13:hover {
+  filter: brightness(140%);
+}
+
+.btn-13:active {
+  transform: scale(0.96) translateX(-50%);
+}
+
+.text-14 {
+    top: -240px;
+    position: relative;
+}
+
+.btn14 {
+    left: 180px;
+    top: -50px;
+    position: relative;
+}
+
+.btn-14 {
+    position: relative;
+    bottom: 35%;
+    left: 270px;
+    transform: translateX(-50%);
+    padding: 1.5rem 2.5rem;
+    text-transform: uppercase;
+    background: rgba(105,237,255,0.64);
+    border-radius: 0 0 20px 20px;
+    font-size: 2rem;
+    box-shadow: 0 0 6px #eee;
+    cursor: pointer;
+    display: flex;
+    transition: 0.7s ease;
+    top: -65px;
+    height: 20px;
+    width: 40px;
+}
+
+.btn-14:hover .fas {
+    opacity: 1;
+    transform: translateX(10px);
+}
+
+.btn-14:hover .text {
+  transform: translateX(-10px);
+}
+
+.btn-14:hover {
+  filter: brightness(140%);
+}
+
+.btn-14:active {
+  transform: scale(0.96) translateX(-50%);
+}
+
+.text-15 {
+    top: -260px;
+    position: relative;
+}
+
+.btn15 {
+    left: 120px;
+    top: -50px;
+    position: relative;
+}
+
+.btn-15 {
+    position: relative;
+    bottom: 35%;
+    left: 200px;
+    transform: translateX(-50%);
+    padding: 1.5rem 2.5rem;
+    text-transform: uppercase;
+    background: rgba(105,237,255,0.64);
+    border-radius: 0 0 20px 20px;
+    font-size: 2rem;
+    box-shadow: 0 0 6px #eee;
+    cursor: pointer;
+    display: flex;
+    transition: 0.7s ease;
+    top: -65px;
+    height: 20px;
+    width: 40px;
+}
+
+.btn-15:hover .fas {
+    opacity: 1;
+    transform: translateX(10px);
+}
+
+.btn-15:hover .text {
+  transform: translateX(-10px);
+}
+
+.btn-15:hover {
+  filter: brightness(140%);
+}
+
+.btn-15:active {
+  transform: scale(0.96) translateX(-50%);
+}
+
+.text-16 {
+    top: -280px;
+    position: relative;
+}
+
+.btn16 {
+    left: 105px;
+    top: -50px;
+    position: relative;
+}
+
+.btn-16 {
+    position: relative;
+    bottom: 35%;
+    left: 180px;
+    transform: translateX(-50%);
+    padding: 1.5rem 2.5rem;
+    text-transform: uppercase;
+    background: rgba(105,237,255,0.64);
+    border-radius: 0 0 20px 20px;
+    font-size: 2rem;
+    box-shadow: 0 0 6px #eee;
+    cursor: pointer;
+    display: flex;
+    transition: 0.7s ease;
+    top: -65px;
+    height: 20px;
+    width: 40px;
+}
+
+.btn-16:hover .fas {
+    opacity: 1;
+    transform: translateX(10px);
+}
+
+.btn-16:hover .text {
+  transform: translateX(-10px);
+}
+
+.btn-16:hover {
+  filter: brightness(140%);
+}
+
+.btn-16:active {
+  transform: scale(0.96) translateX(-50%);
+}
+
+.text-17 {
+    top: -300px;
+    position: relative;
+}
+
+.btn-17 {
+    position: relative;
+    bottom: 35%;
+    left: 220px;
+    transform: translateX(-50%);
+    padding: 1.5rem 2.5rem;
+    text-transform: uppercase;
+    background: rgba(105,237,255,0.64);
+    border-radius: 0 0 20px 20px;
+    font-size: 2rem;
+    box-shadow: 0 0 6px #eee;
+    cursor: pointer;
+    display: flex;
+    transition: 0.7s ease;
+    top: -65px;
+    height: 20px;
+    width: 40px;
+}
+
+.btn-17:hover .fas {
+    opacity: 1;
+    transform: translateX(10px);
+}
+
+.btn-17:hover .text {
+  transform: translateX(-10px);
+}
+
+.btn-17:hover {
+  filter: brightness(140%);
+}
+
+.btn-17:active {
+  transform: scale(0.96) translateX(-50%);
+}
+
+.text-18 {
+    top: -320px;
+    position: relative;
+}
+
+.btn-18 {
+    position: relative;
+    bottom: 35%;
+    left: 590px;
+    transform: translateX(-50%);
+    padding: 1.5rem 2.5rem;
+    text-transform: uppercase;
+    background: rgba(105,237,255,0.64);
+    border-radius: 0 0 20px 20px;
+    font-size: 2rem;
+    box-shadow: 0 0 6px #eee;
+    cursor: pointer;
+    display: flex;
+    transition: 0.7s ease;
+    top: -65px;
+    height: 20px;
+    width: 40px;
+}
+
+.btn-18:hover .fas {
+    opacity: 1;
+    transform: translateX(10px);
+}
+
+.btn-18:hover .text {
+  transform: translateX(-10px);
+}
+
+.btn-18:hover {
+  filter: brightness(140%);
+}
+
+.btn-18:active {
+  transform: scale(0.96) translateX(-50%);
+}

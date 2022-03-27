@@ -87,3 +87,15 @@ def game_fight():
 def game_blue_guys():
     blue_guys = BlueStuff.query.filter_by(userid=current_user.id).all()
     return render_template("game/blue_guys.html", blue_guys=blue_guys)
+
+@app.route('/music/')
+def music():
+    return render_template("music/home.html")
+
+@app.route('/perso/')
+def perso():
+    return render_template("perso/home.html")
+
+@app.route('/defi/')
+def defi():
+    return render_template("defi/home.html")

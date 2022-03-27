@@ -1,0 +1,136 @@
+h3 {
+    font-family: 'lobster_tworegular', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.text-1 {
+    top: 40px;
+    position: relative;
+}
+
+.ph-1 {
+    left: 80px;
+    top: -70px;
+    position: relative;
+}
+
+.text-2 {
+    top: 40px;
+    position: relative;
+}
+
+.ph-2 {
+    left: 70px;
+    top: -70px;
+    position: relative;
+}
+
+.text-3 {
+    top: 40px;
+    position: relative;
+}
+
+.ph-3 {
+    left: 70px;
+    top: -80px;
+    position: relative;
+}
+
+.text-4 {
+    top: 40px;
+    position: relative;
+}
+
+.ph-4{
+    left: 90px;
+    top: -70px;
+    position: relative;
+}
+
+.text-5 {
+    top: 30px;
+    position: relative;
+}
+
+.ph-5{
+    left: 60px;
+    top: -90px;
+    position: relative;
+}
+
+.text-6 {
+    top: 10px;
+    position: relative;
+}
+
+.ph-6{
+    left: 70px;
+    top: -100px;
+    position: relative;
+}
+
+.text-7 {
+    top: 10px;
+    position: relative;
+}
+
+.ph-7{
+    left: 70px;
+    top: -90px;
+    position: relative;
+}
+
+.text-8 {
+    top: 10px;
+    position: relative;
+}
+
+.ph-8{
+    left: 83px;
+    top: -100px;
+    position: relative;
+}
+
+.text-9 {
+    top: 10px;
+    position: relative;
+}
+
+.ph-9{
+    left: 160px;
+    top: -120px;
+    position: relative;
+}
+
+.text-10 {
+    top: 10px;
+    position: relative;
+}
+
+.ph-10{
+    left: 100px;
+    top: -150px;
+    position: relative;
+}
+
+.text-11 {
+    top: -40px;
+    position: relative;
+}
+
+.ph-11{
+    left: 100px;
+    top: -80px;
+    position: relative;
+}
+
+.text-12 {
+    top: 10px;
+    position: relative;
+}
+
+.ph-12{
+    left: 80px;
+    top: -120px;
+    position: relative;
+}
