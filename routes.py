@@ -1,5 +1,6 @@
 
 from crypt import methods
+import json
 from flask import jsonify, redirect, render_template, request
 from flask_login import current_user, login_user, logout_user, login_required
 from app import app
@@ -67,6 +68,20 @@ def game_summon():
             res['img'] = summon.sprite
         return jsonify(res)
     return render_template("game/summon.html", user=current_user)
+
+@app.route('/game/select', methods=['POST'])
+@login_required
+def select():
+    current_user.selected_blue = json.loads(request.data)['id']
+    db.session.commit()
+
+@app.route('/game/fight', methods=['GET', 'POST'])
+@login_required
+def game_fight():
+    if current_user.selected_blue == -1:
+        return redirect("/game/blue_guys")
+    selected = BlueStuff.query.filter_by(id=current_user.selected_blue).first()
+    return render_template("game/fight.html", selected=selected)
 
 @app.route('/game/blue_guys')
 def game_blue_guys():
