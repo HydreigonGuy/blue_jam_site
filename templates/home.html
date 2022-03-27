@@ -4,4 +4,6 @@
 
 {% block head %}{% endblock %}
 
-{% block body %}{% endblock %}
+{% block body %}
+<video src="{{ url_for('static', filename='fond.mp4', _external=True) }}" id="video" autoplay loop muted></video>
+{% endblock %}
