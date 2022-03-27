@@ -71,4 +71,4 @@ def game_summon():
 @app.route('/game/blue_guys')
 def game_blue_guys():
     blue_guys = BlueStuff.query.filter_by(userid=current_user.id).all()
-    return render_template("game/home.html")
+    return render_template("game/blue_guys.html", blue_guys=blue_guys)
