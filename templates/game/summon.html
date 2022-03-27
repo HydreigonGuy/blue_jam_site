@@ -2,11 +2,16 @@
 
 {% block title %} Summon {% endblock %}
 
-{% block head %}{% endblock %}
+{% block head %}
+    <script src="{{ url_for('static', filename='js/summon.js', _external=True) }}"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/game.css', _external=True) }}">
+{% endblock %}
 
 {% block body %}
-    <p style="color: white; margin: 150px; margin-bottom: 20px;">
+    <p style="color: white; margin: 150px; margin-bottom: 20px;" id="pointsCount">
         Your current Blue Coins: {{user.blue_coins}}
     </p>
-    <button class="summon-button">Summon Blue Creature for 100 Blue Coins</button>
+    <button class="summon-button" onclick="tryToSummon()">Summon Blue Creature for 100 Blue Coins</button>
+    <div id="result" class="summon-result"></div>
+    <img src="" id="result-image" style="visibility: hidden; margin-left: 150px;">
 {% endblock %}

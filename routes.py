@@ -1,8 +1,10 @@
 
-from flask import redirect, render_template, request
+from crypt import methods
+from flask import jsonify, redirect, render_template, request
 from flask_login import current_user, login_user, logout_user, login_required
 from app import app
 from db import BlueStuff, User, db
+from game import summon_blue_stuff
 
 @app.route('/')
 def home():
@@ -43,9 +45,27 @@ def game():
         return redirect("/login")
     return render_template("game/home.html")
 
-@app.route('/game/summon')
+@app.route('/game/summon', methods=['GET', 'POST'])
 @login_required
 def game_summon():
+    if request.method == 'POST':
+        res = {
+            'message':'',
+            'blue_coins':current_user.blue_coins,
+            'img':''
+        }
+        if current_user.blue_coins < 100:
+            res['message'] = 'Not enough Blue Coins'
+        else:
+            user = User.query.filter_by(id=current_user.id).first()
+            summon = summon_blue_stuff(user.id)
+            db.session.add(summon)
+            user.blue_coins -= 100
+            db.session.commit()
+            res['blue_coins'] = user.blue_coins
+            res['message'] = 'Congratulations, you have summoned a ' + summon.name
+            res['img'] = summon.sprite
+        return jsonify(res)
     return render_template("game/summon.html", user=current_user)
 
 @app.route('/game/blue_guys')

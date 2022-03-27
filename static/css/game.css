@@ -8,3 +8,10 @@
     text-decoration: none;
     font-size: 20px;
 }
+
+.summon-result{
+    margin: 150px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+}
