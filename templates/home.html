@@ -5,5 +5,16 @@
 {% block head %}{% endblock %}
 
 {% block body %}
+<audio controls autoplay loop id="odio">
+    <source src="{{ url_for('static', filename='Music.mp3', _external=True) }}" type="audio/mpeg">
+</audio>
+
+<style>
+#odio {
+    top: -90px;
+    position: relative;
+}
+</style>
+
 <video src="{{ url_for('static', filename='fond.mp4', _external=True) }}" id="video" autoplay loop muted></video>
 {% endblock %}
